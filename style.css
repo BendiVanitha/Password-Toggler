@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+body{
+    background-color: #250057;
+}
+.input-box{
+    background:#fff;
+    width:90%;
+    max-width:500px;
+    border-radius:5px;
+    padding:10px 20px;
+    margin: 300px auto;
+    display:fles;
+    align-items:center;
+}
+.input-box input{
+     width: 90%;
+     padding: 10px 0;
+     border: 0;
+     outline: 0;
+     font-size: 24px;
+     color: #555;
+}
+.input-box {
+    position: relative; /* Set the parent div to relative positioning */
+}
+
+#icon {
+    position: absolute; /* Position the icon absolutely */
+    right: 50px; /* Adjust the distance from the right */
+    top: 50%; /* Adjust the vertical position */
+    transform: translateY(-50%); /* Center the icon vertically */
+    cursor:pointer;
+}
